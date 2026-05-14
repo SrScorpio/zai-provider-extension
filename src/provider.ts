@@ -246,10 +246,6 @@ export class ZaiChatModelProvider implements LanguageModelChatProvider {
             imageInput: true, // Image input allowed; non-vision models auto-route
           },
           isUserSelectable: true,
-          category: {
-            label: "Z.ai",
-            order: 2,
-          },
         };
       }
     );
