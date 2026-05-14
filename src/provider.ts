@@ -245,6 +245,11 @@ export class ZaiChatModelProvider implements LanguageModelChatProvider {
             toolCalling: model.supportsTools ? MAX_TOOLS_PER_REQUEST : false,
             imageInput: true, // Image input allowed; non-vision models auto-route
           },
+          isUserSelectable: true,
+          category: {
+            label: "Z.ai",
+            order: 2,
+          },
         };
       }
     );
